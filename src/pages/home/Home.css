@@ -1,0 +1,29 @@
+.home-page__add-btn,
+.home-page__add-btn button {
+  cursor: pointer;
+}
+
+.home-page__add-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.home-page__title {
+  padding-left: 20px;
+  margin-top: -5px;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.home-page__header {
+  display: flex;
+  padding-top: 12px;
+  justify-content: space-between;
+  margin-left: 13px;
+}
+
+.home-page__dropdown {
+  cursor: pointer !important;
+}

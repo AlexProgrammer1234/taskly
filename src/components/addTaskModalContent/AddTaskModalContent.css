@@ -1,0 +1,36 @@
+.home-page__modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page__modal-content__btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.home-page__add-btn__trigger {
+  padding: 8px 10px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+.home-page__dropdown-btn {
+  cursor: pointer !important;
+}
+
+.home-page__dialog-btns button {
+  cursor: pointer;
+}
+
+.home-page__dialog-btns {
+  display: flex;
+  margin-top: 25px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.home-page__dialog {
+  background: rgba(6, 0, 16, 0.7) !important;
+  backdrop-filter: blur(20px);
+}

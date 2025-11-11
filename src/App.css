@@ -1,0 +1,12 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app__content {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  backdrop-filter: blur(10px);
+}

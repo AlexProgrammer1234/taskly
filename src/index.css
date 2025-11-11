@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Lexend";
+  src: url("./assets/fonts/Lexend-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  font-family: "Lexend", sans-serif !important;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background: #0a001c;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}

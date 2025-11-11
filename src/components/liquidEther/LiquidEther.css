@@ -1,0 +1,7 @@
+.liquid-ether-container {
+  position: fixed !important;
+  overflow: hidden;
+  inset: 0;
+  touch-action: none;
+  z-index: 0;
+}
